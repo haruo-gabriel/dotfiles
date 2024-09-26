@@ -1,0 +1,8 @@
+" Map 'jk' to exit insert mode
+inoremap jk <Esc>
+
+" Map 'j' to move down a display line
+nnoremap j gj
+
+" Map 'k' to move up a display line
+nnoremap k gk
