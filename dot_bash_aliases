@@ -39,9 +39,9 @@ alias reload='source ~/.bashrc'
 alias h='history'
 alias c='clear'
 alias e='exit'
+alias cat='batcat'
 
 # Safety aliases
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
-
