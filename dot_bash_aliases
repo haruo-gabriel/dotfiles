@@ -1,0 +1,47 @@
+# ~/.bash_aliases
+# Dedicated file for bash aliases
+
+# Navigation aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ~='cd ~'
+alias -- -='cd -'
+
+# File and directory operations
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias ls='ls --color=auto'
+# alias grep='grep --color=auto'
+# alias fgrep='fgrep --color=auto'
+# alias egrep='egrep --color=auto'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gl='git log --oneline'
+alias gd='git diff'
+alias gb='git branch'
+alias gco='git checkout'
+
+# Docker aliases
+# alias dc='docker-compose'
+# alias dcu='docker-compose up'
+# alias dcd='docker-compose down'
+# alias dcb='docker-compose build'
+# alias dcl='docker-compose logs'
+
+# System shortcuts
+alias reload='source ~/.bashrc'
+alias h='history'
+alias c='clear'
+alias e='exit'
+
+# Safety aliases
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
