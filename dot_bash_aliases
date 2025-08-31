@@ -45,3 +45,9 @@ alias cat='batcat'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
+# Apt aliases
+alias Syu='sudo apt update && sudo apt upgrade'
+alias Si='sudo apt install'
+alias Sr='sudo apt remove'
+alias Sc='sudo apt autoclean'
